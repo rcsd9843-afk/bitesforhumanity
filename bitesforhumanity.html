@@ -1,0 +1,512 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="website">
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-icon">B</span>
+      <span>Bites for Humanity</span>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#mission">Our Mission</a>
+      <a href="#food">Food Rescue</a>
+      <a href="#rewards">Rewards</a>
+      <a href="#login" class="nav-button">Volunteer Login</a>
+    </nav>
+  </header>
+
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+
+    <div class="hero-text">
+      <span class="tag">KINDNESS THAT FEEDS COMMUNITIES</span>
+
+      <h1>
+        Do good.<br>
+        <span>Share food.</span><br>
+        Change lives.
+      </h1>
+
+      <p>
+        Turn your community service into meaningful rewards.
+        Help clean public spaces, support people in need,
+        and become part of a movement that reduces food waste.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#signup" class="button primary">Join Our Community →</a>
+        <a href="#mission" class="button secondary">Discover Our Mission</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <img
+        src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1000&q=80"
+        alt="Volunteers working together"
+      >
+      <div class="photo-label">
+        <strong>Every action matters.</strong>
+        <span>Build a kinder community.</span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- IMPACT -->
+  <section id="mission" class="mission section">
+
+    <span class="tag">WHY WE EXIST</span>
+
+    <h2>Making a difference, one good deed at a time.</h2>
+
+    <p>
+      Bites for Humanity connects community service with food support.
+      Volunteers document their activities, submit proof for verification,
+      and earn points for approved contributions. These points can be
+      redeemed for eligible food rewards.
+    </p>
+
+    <div class="impact-grid">
+
+      <article class="impact-card">
+        <span>🌱</span>
+        <h3>Cleaner Communities</h3>
+        <p>Help keep neighbourhoods clean and improve public spaces.</p>
+      </article>
+
+      <article class="impact-card">
+        <span>🍲</span>
+        <h3>Less Food Waste</h3>
+        <p>Connect surplus food with people and communities in need.</p>
+      </article>
+
+      <article class="impact-card">
+        <span>💚</span>
+        <h3>Rewards for Kindness</h3>
+        <p>Earn points for approved activities and redeem eligible rewards.</p>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- SIGN UP -->
+  <section id="signup" class="account-section section">
+
+    <div class="account-card">
+
+      <span class="tag">BECOME A VOLUNTEER</span>
+
+      <h2>Create your account</h2>
+
+      <p>Join our community and start making a difference.</p>
+
+      <form action="#" method="get">
+
+        <label for="full-name">Full Name</label>
+        <input
+          id="full-name"
+          type="text"
+          name="name"
+          placeholder="Enter your full name"
+          autocomplete="name"
+          required
+        >
+
+        <label for="signup-email">Email Address</label>
+        <input
+          id="signup-email"
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          autocomplete="email"
+          required
+        >
+
+        <label for="signup-password">Create Password</label>
+        <input
+          id="signup-password"
+          type="password"
+          name="password"
+          placeholder="At least 8 characters"
+          minlength="8"
+          autocomplete="new-password"
+          required
+        >
+
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          id="confirm-password"
+          type="password"
+          name="confirm-password"
+          placeholder="Enter password again"
+          minlength="8"
+          autocomplete="new-password"
+          required
+        >
+
+        <button type="submit" class="button primary full">
+          Create Volunteer Account
+        </button>
+
+      </form>
+
+      <p class="form-note">
+        Already have an account?
+        <a href="#login">Login here</a>
+      </p>
+
+      <p class="notice">
+        Demonstration form: account creation requires a backend.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- LOGIN -->
+  <section id="login" class="login-section section">
+
+    <div class="account-card">
+
+      <span class="tag">WELCOME BACK</span>
+
+      <h2>Volunteer login</h2>
+
+      <p>Access your volunteer account.</p>
+
+      <form action="#" method="get">
+
+        <label for="login-email">Email Address</label>
+        <input
+          id="login-email"
+          type="email"
+          name="login-email"
+          placeholder="Enter your email"
+          autocomplete="email"
+          required
+        >
+
+        <label for="login-password">Password</label>
+        <input
+          id="login-password"
+          type="password"
+          name="login-password"
+          placeholder="Enter your password"
+          autocomplete="current-password"
+          required
+        >
+
+        <button type="submit" class="button primary full">
+          Login
+        </button>
+
+      </form>
+
+      <p class="form-note">
+        New volunteer?
+        <a href="#signup">Create an account</a>
+      </p>
+
+      <p class="notice">
+        Login verification cannot be performed using HTML and CSS alone.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- VOLUNTEER DASHBOARD -->
+  <section id="dashboard" class="section dashboard">
+
+    <span class="tag">YOUR CONTRIBUTION</span>
+
+    <h2>Volunteer Dashboard</h2>
+
+    <p>
+      A preview of the information volunteers can access
+      after signing in to the completed platform.
+    </p>
+
+    <div class="stats-grid">
+
+      <article class="stat">
+        <span>⭐</span>
+        <p>Available Points</p>
+        <h3>0</h3>
+      </article>
+
+      <article class="stat">
+        <span>📸</span>
+        <p>Activities Submitted</p>
+        <h3>0</h3>
+      </article>
+
+      <article class="stat">
+        <span>⏳</span>
+        <p>Pending Verification</p>
+        <h3>0</h3>
+      </article>
+
+    </div>
+
+    <div class="dashboard-panel">
+      <h3>My Activities</h3>
+      <p>Your submitted activities will appear here once connected to a database.</p>
+      <a href="#submit-activity" class="button primary">
+        Submit an Activity
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- SUBMIT ACTIVITY -->
+  <section id="submit-activity" class="section activity-section">
+
+    <div class="activity-form-card">
+
+      <span class="tag">SHOW YOUR IMPACT</span>
+
+      <h2>Submit a community activity</h2>
+
+      <p>
+        Complete the form and select before-and-after photographs
+        to document your contribution.
+      </p>
+
+      <form action="#" method="post" enctype="multipart/form-data">
+
+        <label for="activity-name">Activity Name</label>
+        <input
+          id="activity-name"
+          type="text"
+          name="activity-name"
+          placeholder="e.g. Community cleanup"
+          required
+        >
+
+        <label for="category">Activity Category</label>
+        <select id="category" name="category" required>
+          <option value="">Select a category</option>
+          <option>Public Space Cleanup</option>
+          <option>Waste Collection</option>
+          <option>Tree Planting</option>
+          <option>Community Assistance</option>
+          <option>Other</option>
+        </select>
+
+        <label for="location">Activity Location</label>
+        <input
+          id="location"
+          type="text"
+          name="location"
+          placeholder="Enter your activity location"
+          required
+        >
+
+        <label for="description">Activity Description</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          placeholder="Describe what you did and the impact it made..."
+          required
+        ></textarea>
+
+        <div class="upload-grid">
+
+          <div class="upload-card">
+            <label for="before-image">Before Photo</label>
+
+            <div class="upload-placeholder">
+              <span>📷</span>
+              <p>Choose a before photo</p>
+            </div>
+
+            <input
+              id="before-image"
+              type="file"
+              name="before-image"
+              accept="image/*"
+              required
+            >
+          </div>
+
+          <div class="upload-card">
+            <label for="after-image">After Photo</label>
+
+            <div class="upload-placeholder">
+              <span>🌿</span>
+              <p>Choose an after photo</p>
+            </div>
+
+            <input
+              id="after-image"
+              type="file"
+              name="after-image"
+              accept="image/*"
+              required
+            >
+          </div>
+
+        </div>
+
+        <p class="notice">
+          Selecting a file does not upload it to a server.
+          A backend is required to save submitted photographs.
+        </p>
+
+        <button type="submit" class="button primary full">
+          Submit Activity
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOD RESCUE -->
+  <section id="food" class="section food-section">
+
+    <span class="tag">RESCUE FOOD, SHARE HOPE</span>
+
+    <h2>Food that deserves another chance.</h2>
+
+    <p>
+      Help connect safe surplus food from restaurants, events,
+      hostels, and community kitchens with people who need it.
+    </p>
+
+    <div class="food-grid">
+
+      <article class="food-card">
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80"
+          alt="Fresh prepared food"
+        >
+        <div class="food-content">
+          <span class="food-status">Example Listing</span>
+          <h3>Fresh Community Meals</h3>
+          <p>Surplus meals available from a participating food provider.</p>
+          <p class="notice">Availability must be confirmed.</p>
+        </div>
+      </article>
+
+      <article class="food-card">
+        <img
+          src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=700&q=80"
+          alt="Fresh vegetables and food ingredients"
+        >
+        <div class="food-content">
+          <span class="food-status">Example Listing</span>
+          <h3>Fresh Produce</h3>
+          <p>Food rescue opportunities from participating providers.</p>
+          <p class="notice">Availability must be confirmed.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- REWARDS -->
+  <section id="rewards" class="section rewards-section">
+
+    <span class="tag">YOUR GOOD DEEDS MATTER</span>
+
+    <h2>Earn points. Redeem food. Spread kindness.</h2>
+
+    <p>
+      Once an activity is verified, volunteers can earn points
+      according to the platform's reward policy.
+    </p>
+
+    <div class="reward-box">
+      <span>🎁</span>
+      <h3>Community Food Rewards</h3>
+      <p>
+        Redeem eligible points for available food rewards
+        from participating providers.
+      </p>
+      <a href="#login" class="button primary">Volunteer Login</a>
+    </div>
+
+  </section>
+
+
+  <!-- LEADERBOARD -->
+  <section id="leaderboard" class="section leaderboard-section">
+
+    <span class="tag">CELEBRATING VOLUNTEERS</span>
+
+    <h2>Community Champions</h2>
+
+    <p>Leaderboard preview for volunteers making a difference.</p>
+
+    <div class="leaderboard">
+
+      <div class="leaderboard-row">
+        <span class="rank">01</span>
+        <span class="leader-icon">🌱</span>
+        <span class="leader-name">Volunteer One</span>
+        <strong>Example points</strong>
+      </div>
+
+      <div class="leaderboard-row">
+        <span class="rank">02</span>
+        <span class="leader-icon">💚</span>
+        <span class="leader-name">Volunteer Two</span>
+        <strong>Example points</strong>
+      </div>
+
+      <div class="leaderboard-row">
+        <span class="rank">03</span>
+        <span class="leader-icon">🌍</span>
+        <span class="leader-name">Volunteer Three</span>
+        <strong>Example points</strong>
+      </div>
+
+    </div>
+
+    <p class="notice">
+      These are placeholder entries, not actual volunteer records.
+    </p>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <a href="#home" class="logo footer-logo">
+      <span class="logo-icon">B</span>
+      <span>Bites for Humanity</span>
+    </a>
+
+    <p>Good deeds. Shared meals. Stronger communities.</p>
+
+    <div class="footer-links">
+      <a href="#mission">Our Mission</a>
+      <a href="#signup">Join Us</a>
+      <a href="#food">Food Rescue</a>
+      <a href="#leaderboard">Leaderboard</a>
+    </div>
+
+    <p class="copyright">© 2026 Bites for Humanity</p>
+
+  </footer>
+
+</div>
